@@ -1,5 +1,8 @@
-const app = require('./server');
+require('dotenv').config();
 
+//console.log(process.env.HELLO);
+
+const app = require('./server');
 
 require('./database');
 
